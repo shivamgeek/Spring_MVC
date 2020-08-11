@@ -6,9 +6,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
-<body>	
-
-<h1> LOGIN SUCCESS!!! </h1>
+<body>
+<h1> Login Failure !!!</h1>
 <h3> User : <%= request.getAttribute("username") %></h3>
 
 </body>
