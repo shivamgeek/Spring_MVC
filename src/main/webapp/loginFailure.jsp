@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" isELIgnored="false" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,6 +9,7 @@
 <body>
 <h1> Login Failure !!!</h1>
 <h3> User : <%= request.getAttribute("username") %></h3>
+<h3> User :  ${username}  </h3>
 
 </body>
 </html>
